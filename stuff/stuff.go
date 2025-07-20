@@ -2,12 +2,21 @@
 package stuff
 
 import (
+	"log"
 	"net/http"
+	"os"
 
 	"github.com/gorilla/mux"
 )
 
+var StufPath string
+
 func Setup() {
+	StufPath = os.Getenv("STUFF_PATH")
+	if StufPath == "" {
+		log.Fatal("STUFF_PATH environment variable is not set")
+		os.Exit(1)
+	}
 	SetupDB()
 }
 
