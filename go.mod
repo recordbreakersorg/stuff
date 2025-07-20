@@ -1,4 +1,4 @@
-module github.com/recordbreakersorg/ins-stuff
+module github.com/recordbreakersorg/stuff
 
 go 1.23.8
 

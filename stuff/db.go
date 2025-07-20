@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/jackc/pgx/v5"
-	"github.com/recordbreakersorg/ins-stuff/stuff/db"
+	"github.com/recordbreakersorg/stuff/stuff/db"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/recordbreakersorg/ins-stuff/stuff"
+	"github.com/recordbreakersorg/stuff/stuff"
 )
 
 func main() {

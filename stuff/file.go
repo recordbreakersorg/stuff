@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/recordbreakersorg/ins-stuff/stuff/db"
+	"github.com/recordbreakersorg/stuff/stuff/db"
 )
 
 func handleFile(w http.ResponseWriter, r *http.Request) {
